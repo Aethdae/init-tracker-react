@@ -80,7 +80,7 @@ export default function App() {
         <h2>Effects</h2>
         <h2>-</h2>
       </div>
-      <hr />
+      <hr className="" />
       <section className="flex flex-col mx-2 gap-4" id="initiativeHolder">
         {initCards
           .sort((a, b) => Number(b.initiative) - Number(a.initiative))
@@ -96,7 +96,7 @@ export default function App() {
           })}
       </section>
       <button
-        className="border-2 border-black rounded-2xl px-8 py-2 bg-green-400 font-bold self-center"
+        className="border-2 border-white text-black rounded-2xl px-8 py-2 bg-green-400 font-bold self-center"
         id="addItemButton"
         onClick={addInit}
       >

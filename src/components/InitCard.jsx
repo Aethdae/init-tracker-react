@@ -17,7 +17,7 @@ export default function InitCard({ item, removeItem, updateCard }) {
   return (
     <div className="flex mx-4 gap-4">
       <input
-        className="border border-black rounded-md px-2 py-1"
+        className="border border-white rounded-md px-2 py-1"
         type="text"
         name="initiative"
         id="initiative"
@@ -27,7 +27,7 @@ export default function InitCard({ item, removeItem, updateCard }) {
         }}
       />
       <input
-        className="border border-black rounded-md px-2 py-1"
+        className="border border-white rounded-md px-2 py-1"
         type="text"
         name="name"
         id="name"
@@ -38,7 +38,7 @@ export default function InitCard({ item, removeItem, updateCard }) {
       />
 
       <input
-        className="border border-black rounded-md px-2 py-1"
+        className="border border-white rounded-md px-2 py-1"
         type="text"
         name="hp"
         id="hp"
@@ -48,7 +48,7 @@ export default function InitCard({ item, removeItem, updateCard }) {
         }}
       />
       <input
-        className="border border-black rounded-md px-2 py-1"
+        className="border border-white rounded-md px-2 py-1"
         type="text"
         name="notes"
         id="notes"
@@ -58,7 +58,7 @@ export default function InitCard({ item, removeItem, updateCard }) {
         }}
       />
       <input
-        className="border border-black rounded-md px-2 py-1"
+        className="border border-white rounded-md px-2 py-1"
         type="text"
         name="effects"
         id="effects"
@@ -69,7 +69,7 @@ export default function InitCard({ item, removeItem, updateCard }) {
       />
       <button
         onClick={() => removeItem(item.id)}
-        className="px-4 py-2 bg-red-400 font-bold border-2 border-black rounded-2xl"
+        className="px-4 py-2 bg-red-400 font-bold border-2 rounded-2xl border-white text-black"
       >
         Delete
       </button>
